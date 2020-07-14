@@ -8,13 +8,13 @@ namespace Lab7_4DatingGameOOPEncapAbstract
     {
 
         public string firstName { get; set; }
-        private string lastName { get; set; }
+        public string lastName { get; set; }
         public int age { get; set; }
         public string gender { get; set; }
         public string bio { get; set; }
         public List<Message> myMessages { get; set; }
 
-        public DatingProfile(string firstName, string lastName, int age, string gender) 
+        public DatingProfile(string firstName, string lastName, int age, string gender)
         {
 
             this.firstName = firstName;
